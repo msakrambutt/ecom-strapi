@@ -1,6 +1,5 @@
 import Footer from '@/components/Footer'
 import NavBar from '@/components/NavBar'
-import Shopping from '@/components/Shopping';
 import TopHeader from '@/components/TopHeader'
 import '@/styles/globals.css'
 import { ICartItem } from '@/types/page';

@@ -24,7 +24,7 @@ const ViewCart = ({cart,setCart,productQty,setProductQty,setSubtotal,subtotal}:I
     }
     setSubtotal(myTotal);
     setProductQty(myQuantity);
-  },[cart])
+  },[cart,setProductQty,setSubtotal])
 
   const removeFromCart = (idx:number) => {
     setCart((prevItems) => prevItems.filter((item,id) => id !== idx));
