@@ -17,7 +17,7 @@ const CategoryCard = ({category}:IPropType) => {
                   <div className="bg-gray-200 p-5 rounded-lg">
                     <Image
                       className="h-60 rounded w-72 object-cover object-center mb-6" 
-                      src={"http://localhost:1337"+category.attributes.Image.data.attributes.formats.thumbnail.url}
+                      src={category.attributes.Image.data.attributes.formats.thumbnail.url}
                       alt='content' height={175} width={175}
                     />
                     <h3 className=" text-primary-dark text-xs font-medium title-font">

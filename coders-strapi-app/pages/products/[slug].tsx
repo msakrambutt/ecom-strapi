@@ -83,7 +83,7 @@ const Slug = ({product,notFound=false,cart,setCart}:IPropType) => {
             <section className="text-gray-600 body-font overflow-hidden">
         <div className="container px-5 py-5 mx-auto">
     <div className="lg:w-4/5 mx-auto w-full h-full py-3 flex flex-wrap">
-      <Image alt="" className="lg:w-1/2 w-full lg:h-full h-full object-cover object-center rounded p-1" src={"http://localhost:1337"+product.attributes.Image.data.attributes.formats.small.url} width={75} height={75} />
+      <Image alt="" className="lg:w-1/2 w-full lg:h-full h-full object-cover object-center rounded p-1" src={product.attributes.Image.data.attributes.formats.small.url} width={75} height={75} />
       <div className="lg:w-1/2 w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0">
         <h2 className="text-sm title-font text-gray-500 tracking-widest">BMS Store </h2>
         <h1 className="text-gray-900 text-3xl title-font font-medium mb-1">{product.attributes.Title}</h1>

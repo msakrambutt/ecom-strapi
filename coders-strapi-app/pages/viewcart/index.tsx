@@ -117,7 +117,7 @@ const ViewCart = ({cart,setCart,productQty,setProductQty,setSubtotal,subtotal}:I
           return (
           <div key={idx} className='lg:flex gap-5 leading-normal py-5 w-full'>
             <div className=''> 
-            <Image alt="" className=" h-40 w-40 border bg-gray-200 object-cover object-center rounded p-1" src={"http://localhost:1337"+item.Image} width={75} height={75} />
+            <Image alt="" className=" h-40 w-40 border bg-gray-200 object-cover object-center rounded p-1" src={item.Image} width={75} height={75} />
                 {/* quantity */}
         <div className="mx-auto p-1">
           <div className="flex items-center mb-1">
